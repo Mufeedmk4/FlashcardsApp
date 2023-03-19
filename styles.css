@@ -6,9 +6,12 @@
       'Lucida Sans', Arial, sans-serif;
   }
   
+  body{
+    background: #d8d8d6;
+  }
   nav {
     height: 80px;
-    background: #fdcc04;
+    background: #d8d7d6;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +19,7 @@
   }
   
   .logo {
-    color: #000;
+    color: #739086;
     font-size: 1.5rem;
     font-weight: bold;
     font-style: italic;
@@ -25,7 +28,7 @@
   
   nav a {
     text-decoration: none;
-    color: #000;
+    color: #739086;
     padding: 0 1.5rem;
   }
   
@@ -34,13 +37,13 @@
   }
   
   .hero {
-    background: #fdcc04;
+    background: #739086;
   }
   
   .hero-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 95vh;
+    height: 50vh;
     padding: 3rem calc((100vw - 1300px) / 2);
   }
   
@@ -49,7 +52,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    color: #000;
+    color: #d8d8d6;
     padding: 0rem 2rem;
   }
   
@@ -68,8 +71,8 @@
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
-    color: #fdcc04;
-    background: #000;
+    color: #739086;
+    background: #d8d8d6;
     cursor: pointer;
     border-radius: 50px;
   }
@@ -88,11 +91,61 @@
   
   .hero-image {
     width: 100%;
-    height: 100%;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 500px;
+    border-top-right-radius: 350px;
+    border-bottom-right-radius: 150px;
   }
   
   @media screen and (max-width: 768px) {
     .hero-container {
       grid-template-columns: 1fr;
     }
+  }
+
+  .secondary {
+    background-color: #d8d8d6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .card-title {
+
+    width: 75%;
+    height: 50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #739086;
+    color:#739086;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #d8d8d6;
+  }
+
+  .title-align {
+    text-align: center;
+  }
+  .card-content {
+    width: 75%;
+    margin-top: 10px;
+    height: 500px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #739086;
+    color:#739086;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #d8d8d6;    
+  }
+  .content-align {
+    text-align: center;
+  }
+
+  .additional-file {
+    color: #739086;
+    margin-top: 10px;
+  }
+  .file-align {
+    text-align: center;
+    margin-right: 480px;
   }
